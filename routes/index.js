@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
     })
 })
 //localhost:3000
-router.get('/:id', (req, res) => {
+router.get('/users/:id', (req, res) => {
     console.log('hit a dynamic route!');
     console.log(req.params.id);
 
